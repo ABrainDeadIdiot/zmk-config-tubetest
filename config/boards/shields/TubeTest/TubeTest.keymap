@@ -12,7 +12,7 @@
         &kp TAB           &kp Q  &kp W  &kp E  &kp R  &kp T  %kp LEFT_BRACKET
         &kp CAPSLOCK      &kp A  &kp S  &kp D  &kp F  &kp G  &kp PRINTSCREEN
         &kp SHIFT         &kp Z  &kp X  &kp C  &kp V  &kp B  &kp BACKSPACE
-        &kp LEFT_CONTROL  &none    &none   &kp LEFT_ALT &kp LWIN  &kp BACKSPACE &kp SPACE
+        &kp LEFT_CONTROL  &kp T  &kp T  &kp LEFT_ALT &kp LWIN  &kp BACKSPACE &kp SPACE
 
             >;
         };
