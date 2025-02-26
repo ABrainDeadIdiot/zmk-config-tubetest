@@ -3,19 +3,20 @@
 / {
 
 
-&xiao_spi {
+&pro_micro_spi {
     status = "okay";
-    cs-gpios = <&pro_micro 19 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&pro_micro 19 (GPIO_ACTIVE_LOW)>;
     shifter: 595@0 {
         compatible = "zmk,gpio-595";
         status = "okay";
         gpio-controller;
         spi-max-frequency = <200000>;
         reg = <0>;
-        #gpio-cells = <2>;
+        label = "74HC595";
         ngpios = <16>;
-        };
     };
+};
+
 
 
     chosen {
