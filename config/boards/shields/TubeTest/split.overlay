@@ -3,9 +3,9 @@
 / {
 
 
-&pro_micro {
+&pro_micro_spi {
     status = "okay";
-    cs-gpios = <&pro_micro 15 (GPIO_ACTIVE_LOW)>;
+    cs-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH)>;
     shifter: 595@0 {
         compatible = "zmk,gpio-595";
         status = "okay";
