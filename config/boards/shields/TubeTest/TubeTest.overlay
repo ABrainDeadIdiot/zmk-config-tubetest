@@ -1,24 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-
 / {
-
-
-&pro_micro_spi {
-    status = "okay";
-    cs-gpios = <&pro_micro 15 (GPIO_ACTIVE_HIGH)>;
-    shifter: 595@0 {
-        compatible = "zmk,gpio-595";
-        status = "okay";
-        gpio-controller;
-        spi-max-frequency = <200000>;
-        reg = <0>;
-        label = "74HC595";
-        ngpios = <16>;
-    };
-};
-
-
-
     chosen {
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
