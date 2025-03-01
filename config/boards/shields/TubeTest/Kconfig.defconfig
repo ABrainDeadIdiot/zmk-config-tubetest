@@ -1,6 +1,6 @@
 if SHIELD_TUBETEST
 config ZMK_KEYBOARD_NAME
-    default "split"
+    default "TubeTest"
 config SPI
     default y
 endif
