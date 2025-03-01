@@ -1,5 +1,4 @@
 &pro_micro_serial { status = "disabled"; };
-
 &pro_micro_spi {
     status = "okay";
     cs-gpios = <&pro_micro 15 (GPIO_ACTIVE_LOW)>;
